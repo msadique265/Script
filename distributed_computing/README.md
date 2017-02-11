@@ -30,7 +30,8 @@ B) Start worker from project directory (celery -A distributor worker -l info)
 - Note: you can run multiple worker on same machine
 
 worker1(cmd) : celery -A distributor worker -l info -n worker1%n
-worker1(cmd) : celery -A distributor worker -l info -n worker2%n
+
+worker2(cmd) : celery -A distributor worker -l info -n worker2%n
 
 That's it.
 
